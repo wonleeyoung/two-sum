@@ -1,4 +1,4 @@
-def twoSum(nums: list[int], target: int) -> list[int]:
+def twoSum(nums, target):
   a = []
   for i in range(len(nums)-1):
     for j in range(i+1, len(nums)):
